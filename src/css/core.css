@@ -1,0 +1,46 @@
+/**
+ * TicTacToeJS
+ * Copyright (C) Simon Raichl 2018
+ * MIT License
+ */
+
+* {
+    font-family: Segoe UI, sans-serif;
+    margin: 0;
+}
+
+.tic-tac-toe-game-canvas {
+    padding: 4px;
+    width: 312px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #9fe787;
+}
+
+.tic-tac-toe-square {
+    width: 96px;
+    height: 96px;
+    margin: 4px;
+    background: #6fe71f;
+    transition: .7s;
+    cursor: pointer;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.tic-tac-toe-square:hover {
+    background: #51c729;
+}
+
+.tic-tac-toe-mark {
+    color: #fff;
+    font-size: 7rem;
+    margin-top: -2.8rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
